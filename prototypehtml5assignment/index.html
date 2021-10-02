@@ -23,7 +23,7 @@
     </header>
     <!--[document title]-->
     <section id="content">
-      <h2>Properly Marking up an &nbsp;HTML Document (Primary Content Heading)</h2>
+      <h2 id="top">Properly Marking up an &nbsp;HTML Document (Primary Content Heading)</h2>
     </section>
     <form action="processing-script.php" method="post">
       <fieldset>
@@ -84,55 +84,62 @@
       Ontario, CA, 92672
     </address>
     <div>
-    <h3>This is a Subsection of the Primary Content (Subsection I)</h3>
-    <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="ular logo" width="10" height="10" />
-    <em>This is a paragraph.</em> &quot;Often times designers will use&quot;
-    <!--inline quote--> <q>Dummy Text</q> as a placeholder in a document. <h4>An example of that text follows</h4><p>...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa.</p> <sub>In volutpat eros sagittis ipsum</sub>. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id <del>lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes,</del> nascetur ridiculus mus. Mauris volutpat. <p>Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, <sup>sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis</sup>.</p>
+      <h3>This is a Subsection of the Primary Content (Subsection I)</h3>
+      <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="ular logo" width="10" height="10" />
+      <em>This is a paragraph.</em> &quot;Often times designers will use&quot;
+      <!--inline quote--> <q>Dummy Text</q> as a placeholder in a document. <h4>An example of that text follows</h4>
+      <p>...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa.</p> <sub>In volutpat eros sagittis ipsum</sub>. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id <del>lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes,</del> nascetur ridiculus mus. Mauris volutpat. <p>Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, <sup>sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis</sup>.</p>
     </div>
-      <!--This is a list of instructions.,-->
-      <ol>
-        <li>Instruction</li>
-        <li>Instruction</li>
-        <li>Instruction</li>
-      </ol>
-      <!--This is a list of items to purchase at the grocery store.-->
-      <span>Ramen</span>
-      <ul>
-        <li>beef</li>
-        <li>chicken</li>
-        <li>shrimp</li>
-      </ul>
-      <span>Cheetos</span>
-      <ul>
-        <li>Hot and spicy</li>
-        <li>ranch</li>
-        <li>buffalo</li>
-      </ul>
-      <span>Gatorade</span>
-      <ul>
-          <li>fruit punch</li>
-          <li>strawberry</li>
-          <li>Blueberry</li>
-      </ul>
-    <blockquote>This is an Example of how we should mark <cite>Bread and Bread and more Bread</cite></blockquote><!-- block level quote-->
-    <dt>Term</dt>
-    <!--this is the navigation for the page-->
-    <!--content-->
-    <dd>Description 1</dd>
-    <!--this is the navigation for the page-->
-    <!--PRIMARY-->
+    <!--This is a list of instructions.,-->
+    <ol>
+      <li>Instruction</li>
+      <li>Instruction</li>
+      <li>Instruction</li>
+    </ol>
+    <!--This is a list of items to purchase at the grocery store.-->
+    <span>Ramen</span>
+    <ul>
+      <li>beef</li>
+      <li>chicken</li>
+      <li>shrimp</li>
+    </ul>
+    <span>Cheetos</span>
+    <ul>
+      <li>Hot and spicy</li>
+      <li>ranch</li>
+      <li>buffalo</li>
+    </ul>
+    <span>Gatorade</span>
+    <ul>
+      <li>fruit punch</li>
+      <li>strawberry</li>
+      <li>Blueberry</li>
+    </ul>
+    <div>
+      <blockquote>This is an Example of how we should mark <cite>Bread and Bread and more Bread</cite></blockquote><!-- block level quote-->
+      <dl>
+        <dt>Term</dt>
+        <!--this is the navigation for the page-->
+        <!--content-->
+        <dd>Description 1</dd>
+      </dl>
+      <!--this is the navigation for the page-->
+      <!--PRIMARY-->
+    </div>
     <nav class="primary">
       <ul>
-        <li><a href="https://ualr.edu" targets="_blank" title="Ualr">Home</a></li>
-        <li><a href="files/filename.pdf" targets="_self" title="About">About</a></li>
-        <li><a href="#sample" targets="_parent" title="Home">Ualr</a></li>
-        <li><a href="mailto:houstonr98h@gmail.com" target="_top" title="Email">Contact</a></li>
+        <li><a href="https://ualr.edu" title="Ualr">Home</a></li>
+        <li><a href="files/filename.pdf" title="About">About</a></li>
+        <li><a href="#sample" title="Home">Ualr</a></li>
+        <li><a href="mailto:houstonr98h@gmail.com" title="Email">Contact</a></li>
       </ul>
     </nav>
     <!--primary-->
     <footer>
-      <h6>This is the the footer. You should always include any copyright</h6>, &copy; 2021 Houston Hollingsworth |<li><a href="top">Top of Page</a></li>|
-      <li><a href="mailto:houstonr98h@gmail.com" target="_top" title="Email">Contact</a></li>
+      <h6>This is the the footer. You should always include any copyright, &copy; 2021 Houston Hollingsworth |
+        <a href="#top">Top of Page</a> |
+        <a href="mailto:houstonr98h@gmail.com" target="_top" title="Email">Contact</a>
+      </h6>
     </footer>
   </div><!-- this div tag is closing the whole body-->
   <!--. "CONTAINER"-->
