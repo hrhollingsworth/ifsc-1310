@@ -81,93 +81,26 @@ header.primary h1 a{
   text-decoration:none;
 }
 
-header.primary h2{
-  font-size:20px;
-  /* top | left/right | Bottom */
-  margin:20px auto 40px;
+
 }
 #content{
-  padding: 4em 0;
+  padding: 10px;
 }
-#articles{
-  display:flex;
-  font-size:10px;
-  padding:5px;
-  
-    
-}
-#articles .container{
+articles.post{
   display:flex;
   flex-direction:row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  border-bottom:1px solid #c0c0c0;
-  padding:0 0 4em 0;
-}
-#articles h2,
-#content h2{
-  flex:0 0 35%;
-  color:black;
-  text-align:center;
-  font-family:"space-mono";
-  font-size:2em;  
-}
-#articles h2{
-  color:#fff;
-  text-shadow:2px 2px #000;
-}
-#articles article.post{
-  width:30%;
-  box-shadow:0 4em 8em;
-  padding: 0;
-  transition:0.6s;
-  font-size:1.0rem;
-  border-radius:10px;
-  background:#c0c0c0;  
-}
+  flex-wrap:wrap;
+}   
 #article article.post h2{
   font-size:1.5em;
   text-shadow:none;
 }
-#article article.post:hover{
-  box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
-}
-#articles article time,
-#articles article figcaption,
-#articles article footer{
-  font-size:0.8em;
-  color:#c0c0c0;
-  text-transform: uppercase;
-}
-#article .post a:link,
-#article .post a:visited{
-  color:#C0FEFC;
-}
-#article .post figure{
-  margin:0;
-}
-#article .post img{
-  border-radius: 10px;
-}
-#article ul{
-  padding: 0 10px;
-}
-
-#article li{
-  margin: 5px;
-}
-
 header.primary nav{
   width:70vw;
   /* set L/R to AUTO to center */
   margin:20px auto;
   max-width:900px;
 }
-
-@media screen and (max-width:700px) {
-  
-}
-
 header.primary nav ul{
 padding:0;
 display:flex;
@@ -207,15 +140,10 @@ header nav a:active{
 #intro p{
   line-height:1.5rem
 }
-#content{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;  
-}
 #content article.post{
   width:30%;
   box-shadow:0 4px 8px rgba(0,0,0,.4) ;
-  padding:0px;
+  padding:5px;
   border-radius:4px;
   font-size:.7rem;
   transition:.5s;
