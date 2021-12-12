@@ -1,0 +1,198 @@
+/* color scheme-
+#04009A
+#77ACF1
+#3EDBF0
+#C0FEFC
+*/
+
+
+/* FONT -- ont-family: 'Space Mono', monospace; */
+
+/*-----Box sizing----*/
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* --------Utility Classes-----------*/
+
+.container{
+  width:70vw;
+  margin:40px auto;
+  max-width:900px;
+}
+
+.img-right{
+  float:right;
+  border:1px solid #ffffff;
+  padding:5px;
+  margin-right:20px;
+  
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:1px dotted #c0c0c0;
+  padding: 5px;
+  
+}
+
+/* ----------Responsive Images--------*/
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/*----------Global-styles--------*/
+body {
+  background-color:#77ACF1;
+  font-family: 'Space Mono', monospace; 
+  margin:0;
+}
+
+header.primary {
+background-color:#3EDBF0;
+text-align:center;
+color:#C0FEFC;
+/* clock wise T,R,B,L */
+/* short version */
+ padding:40px 40px 20px 40px;
+ /* top/bottom--Right/Left */
+ padding: 20px 40px;
+ text-shadow:2px 2px 10px #000000; 
+ background-image: url(https://media.istockphoto.com/photos/star-field-at-night-picture-id501655522?b=1&k=20&m=501655522&s=170667a&w=0&h=yxV0H4RLzwn_roNsSxejPhL0JAQl7YGguAeL1PtniZw=);
+}
+header.primary::before {
+  content:"";
+  background-image:url()
+}
+header.primary h1{git
+  font-size:1.5em;
+  margin:20px 0;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+
+}
+#content{
+  padding: 10px;
+}
+articles.post{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}   
+#article article.post h2{
+  font-size:1.5em;
+  text-shadow:none;
+}
+header.primary nav{
+  width:70vw;
+  /* set L/R to AUTO to center */
+  margin:20px auto;
+  max-width:900px;
+}
+header.primary nav ul{
+padding:0;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+header.primary nav li{
+list-style-type:none;
+}
+
+header.primary nav a{
+  color:#c0c0c0;
+  text-decoration:none;
+  background-color:#000000;
+  background-color:rgba(0,0,0,.4);
+  padding:8px 12px;
+  border-radius:20px 5px;
+  transition:.5s;
+}
+ 
+header nav a:hover,
+header nav a:active{
+  background-color:rgba(0,0,0,.8);
+}
+
+
+#intro{
+  border-bottom:1px dotted #c0c0c0;
+  padding-bottom:1.1rem;
+}
+#intro h2{
+  color:#17E696;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#intro p{
+  line-height:1.5rem
+}
+#content article.post{
+  width:30%;
+  box-shadow:0 4px 8px rgba(0,0,0,.4) ;
+  padding:5px;
+  border-radius:4px;
+  font-size:.7rem;
+  transition:.5s;
+  
+}
+
+#content article.post:hover{
+  box-shadow:0 8px 16px rgba(0,0,0,.4);
+  margin:0;
+}
+
+.post-data, figcation, post-meta {
+  text-transform:uppercase;
+  color:#04009A;
+}
+.post a{
+  color:#C0FEFC;
+}
+/* media query example*/ 
+  header.primary nav a{
+    display:block;
+  }
+  header.primary nav li{
+    margin-bottom:10px
+  }
+
+/*--------attribute selectors----------*/
+ div.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+table {
+  border-collapse: collapse;
+ }
+th {
+  background-color:#04009A;
+  Color:white;
+  }
+th, td {
+  width:150px;
+  text-align:center;
+  border:1px solid black;
+  padding:0px      
+  }
+.geeks {
+  border-right:hidden;
+     }
+.gfg {
+  border-collapse:separate;
+  border-spacing:0 15px;
+}
